@@ -1,0 +1,4 @@
+User: root
+Host: host-155
+Date: Пт 27 мар 2026 10:15:13 MSK
+Path: /root/Daniil

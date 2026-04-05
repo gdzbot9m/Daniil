@@ -1,0 +1,20 @@
+   60  git checkout main
+   61  git switch -c lesson3
+   62  git switch -c lesson3
+   63  git branch
+   64  git branch
+   65  git branch
+   66  git branch
+   67  nano README.md
+   68  git add README.md
+   69  git commit -m "Update README for lesson3"
+   70  git push -u origin lesson3
+   71  mkdir -p lesson3/linux_practive
+   72  mkdir -p lesson3/linux_practice
+   73  echo "User: $(whoami)" > lesson3/linux_practice/vm_info.txt
+   74  echo "Host: $(hostname)" >> lesson3/linux_practice/vm_info.txt
+   75  echo "Date: $(date)" >> lesson3/linux_practice/vm_info.txt
+   76  echo "Path: $(pwd)" >> lesson3/linux_practice/vm_info.txt
+   77  ip a > lesson3/linux_practice/network.txt
+   78  ifconfig > lesson3/linux_practice/network.txt
+   79  history | tail -n 20 > lesson3/linux_practice/history.txt
